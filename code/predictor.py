@@ -1,5 +1,4 @@
 # NBA Game Predictor
-#
 # The main predictor function, which calls the
 # the requested model to make the prediction
 
@@ -232,11 +231,11 @@ if __name__ == '__main__':
     #predictor("basic_nn")
 
     # Test the advanced SVM predictor
-    #print("\n\nTraining advanced SVM predictor...")
-    #predictor("advanced_svm")
+    print("\n\nTraining advanced SVM predictor...")
+    predictor("advanced_svm")
     # Test the advanced naive bayes predictor
-    #print("\nTraining advanced Naive Bayes predictor...")
-    #predictor("advanced_nb")
+    print("\nTraining advanced Naive Bayes predictor...")
+    predictor("advanced_nb")
     # Test the advanced NN predictor
-    #print("\nTraining advanced Neural Net predictor...")
-    #predictor("advanced_nn")
+    print("\nTraining advanced Neural Net predictor...")
+    predictor("advanced_nn")
