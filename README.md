@@ -1,5 +1,9 @@
 # Probability predictor AI
-#By: Peter Senko
+# By: Peter Senko
+
+## Instructions
+to run predictors python3 predictor.py
+blockchain and API python3 blockchain.py and python3 API.py
 
 ## What is this?
 This is a accuracy predictor based on data that is scraped from previous years and using blockchain to exchange this information
