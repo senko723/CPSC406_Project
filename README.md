@@ -18,4 +18,11 @@ When doing some background research on how I was going to exactly implement bloc
 The project consists of of mostly python code. The code is divided between the predictors, blockchain, and the parser/scraper which is all in the code folder. The data structures and algorithms that are used are 4 predictors(baseline, naive bayes, neural nets, and svm) that each find a accuracy based off the data from the parser and scraper.The data that is being scraped through is from Basketball Reference](https://basketball-reference.com). The data is first stored in a data-frame then is converted to json files. The work was solely done by Peter Senko.
 
 ## What works and what does not
-The project runs all the predictors correctly. The aspect between the blockchain and being able to relay the calculations from the predictor to people that also currently on the blockchain. However, users can still send transactions but have to update the code with the transactions that they wish to place. The next step from here would be to enhance the API to be able to truly exchange information from peer to peer and to be able to send transaction without having to alter the code in anyway each time.
+The project runs all the predictors correctly. The aspect between the blockchain and being able to relay the calculations from the predictor to people that also currently on the blockchain. However, users can still send transactions but have to update the code with the transactions that they wish to place.
+
+## Future Developments
+
+- Build onto the API in order to enhance transactions on Blockchain
+- Work on accuracy of predictors
+- Add multiple sports
+- Better user interface
